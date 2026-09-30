@@ -15,6 +15,7 @@ print()
 df['MA20'] = df['Close'].rolling(window=20).mean()
 print(df[['Close', 'MA20']].tail())
 
+print()
 # Criar um programa que carrega um dataframe que tenha os nomes, idades e salários de funcionários, e calcula o salário médio por idade.
 df_funcionarios = pd.DataFrame({
     'nome': ['Alice', 'Manel', 'Bob', 'Eva', 'Francis', 'Charlie', 'David', 'Grace', 'Hannah', 'Ian'],
